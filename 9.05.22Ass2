@@ -1,0 +1,8 @@
+test_dict={"arshin":22,"neha":23,"moksha":24,"akhi":25}
+print("the dictionary before performing remove is:"+ str(test_dict))
+del test_dict["moksha"]
+print("the dictionary afrter remove is : " + str(test_dict))
+del test_dict["arshin"]
+O/P:
+the dictionary before performing remove is:{'arshin': 22, 'neha': 23, 'moksha': 24, 'akhi': 25}
+the dictionary afrter remove is : {'arshin': 22, 'neha': 23, 'akhi': 25}
